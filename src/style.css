@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #333;
+  /* transform: transition duration 0.5s; */
+  /* transition: background-color 0.5s ease, color 0.5s ease; */
+  /* border-radius: 12px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: #3490dc;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  background-color: #3490dc;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2779bd;
+}
+
+/* Webkit 浏览器（如 Chrome, Safari） */
+::-webkit-scrollbar {
+  width: 1rem; /* 滚动条宽度 */
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* 滚动条轨道颜色 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* 滚动条颜色 */
+  border-radius: 10px; /* 滚动条圆角 */
+  border: 3px solid #000000; /* 滚动条边框 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 滚动条悬停颜色 */
+}
+
+.animate-from-top {
+  animation: fadeInTop 0.5s ease-in-out 0.5s both;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.animate-from-bottom {
+  animation: fadeInTop 0.5s ease-in-out 0.5s both;
+}
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.animate-from-right {
+  animation: fadeInRight 0.5s ease-in-out 0.5s both;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

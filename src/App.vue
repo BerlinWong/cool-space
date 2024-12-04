@@ -2,7 +2,7 @@
   <div class="flex flex-col h-screen main-container">
     <NavBar />
     <main class="flex-1 overflow-auto">
-      <RouterView class="h-full" />
+      <RouterView />
     </main>
   </div>
 </template>

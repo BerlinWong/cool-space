@@ -1,5 +1,5 @@
 <template>
-  <div class="about-page p-8 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 transform transition duration-500">
+  <div class="about-page p-8 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 transform transition duration-500 h-full">
     <h1 class="text-4xl font-bold mb-4 text-center">关于我们</h1>
     <p class="text-lg mb-6 text-center">
       欢迎来到我们的关于页面！我们致力于提供最好的服务和体验。
